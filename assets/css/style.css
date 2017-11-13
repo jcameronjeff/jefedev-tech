@@ -1,0 +1,154 @@
+/*
+* Teal color (used for headings and backgrounds): `#4aaaa5`
+   * Regular font color (used for paragraphs and all text besides the headings): `#777777`
+   * Main header background color: `#ffffff`
+   * Main header border color: `#cccccc`
+   * Footer background color: `#666666`
+   * Main content background color: `#ffffff`
+   * Main content border color: `#dddddd`
+*/
+
+
+body {
+    margin: auto;
+}
+
+.menubar {
+    width: 960px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 90px;
+}
+
+header {
+    width: auto;
+    background-color: #fff;
+    height: 90px;
+    border-bottom-style:solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #cccccc;
+
+}
+
+h1 {
+   font-family: "Georgia", Times, Times New Roman, serif;
+   font-size: 24px
+}
+
+h2 {
+    font-size: 22px;
+}
+
+p {
+    font-size: 18px;
+}
+
+
+header h1{
+    float:left;
+    margin-left: 0px;
+    background-color:#4aaaa5;
+    padding: 33px;
+    margin-right: 450px;
+    color: #ffffff;
+    
+}
+
+.nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+}
+
+.nav ul {
+	padding: 0;
+	display: inline;
+    height: 90px;
+    text-align: center;
+
+}
+
+
+.nav ul li {
+	display: inline-block;
+	list-style-type: none;
+    padding: 16px;
+    font-size: 18px;  
+}
+
+
+
+.container {
+    width: 960px;
+    height: auto;;
+    margin-top:50px;
+    margin-left: 100px;
+    margin-right: 100px;
+   
+}
+
+.aboutme {
+
+    float: left;
+    width: 650px;
+    background-color: #ffffff;
+    margin-bottom: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+}
+.aboutme h1{
+    margin: 20px;
+    padding: 20px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #dddddd;
+    color: #4aaaa5;
+}
+.aboutme img {
+    float:left;
+    margin: 10px 20px 0px 20px;
+    
+}
+
+.aboutme p {
+    margin: 20px;
+    margin-top: 30px;
+    line-height: 140%
+    
+}
+
+.connect {
+    float: left;
+    width: 270px;
+    margin-left: 38px;
+    background-color: #ffffff;
+    text-align: center;
+    
+}
+
+.connect h2 {
+    padding: 15px;
+    margin: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 40px;
+    border-bottom-width: 2px;
+    border-bottom-color: #dddddd;
+    color: #4aaaa5;
+}
+.connect img {
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer {
+    clear:both;
+    width: 100%;
+    background-color: #666666;
+    color: #ffffff;
+    height: 90px;
+    text-align: center;
+    line-height: 90px;  
+}
+    
