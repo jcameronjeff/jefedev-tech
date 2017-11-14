@@ -22,8 +22,10 @@ header {
     border-bottom-width: 3px;
     border-bottom-color: #cccccc;
     overflow-x: scroll;
-
 }
+
+/*separated header, menu, and h1 to get the nav list items where I wanted while making the header span unlimited x */
+
 .menubar {
     width: 960px;
     margin: 0 auto;
@@ -54,6 +56,9 @@ header h1{
     
 }
 
+
+/*Nav Bar*/
+
 .nav {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -74,11 +79,12 @@ header h1{
     padding: 16px;
     font-size: 16px;
     color: #777777;
-    border-right:solid 1px rgba(119, 119, 119, 0.69);    
+    border-right:solid 1px rgba(119, 119, 119, 0.47);    
 }
 
 a {
     text-decoration:none; 
+	color: #777777;
 }
 
 a:visited {
@@ -88,23 +94,21 @@ a:hover {
     color:#4aaaa5;
 }
 
+
+/*making the nav bar vertical dividers*/
+
 ul li:nth-child(3){
-    border-right: none;
-    
+    border-right: none;  
 }
 
 
 
-ul li:3rd-child(3){
-    border-right: none;
-}
+/*about me container*/
 
 .container {
     width: 960px;
     height: auto;;
-  margin: 50px auto;
-
-   
+  margin: 50px auto;   
 }
 
 .aboutme {
@@ -138,6 +142,9 @@ ul li:3rd-child(3){
     color: #777777;
     
 }
+
+
+ /*social box*/
 
 .connect {
     float: left;
@@ -176,14 +183,11 @@ footer {
     line-height: 90px;
     border-top-style: solid;
     border-top-width: 6px;
-    border-top-color: #4aaaa5;
-        
-    
+    border-top-color: #4aaaa5;  
 }
 
 
-/*This section is for the portfolio
-*/
+/*portfolio */
 
 .portfolio {
 
@@ -206,7 +210,7 @@ footer {
     color: #4aaaa5;
 }
 
-/*Gallery*/
+/*Gallery COULD NOT figure out how to make the images float left so that odd numbers wouldn't be centered finally wrapped the images in the gallery class and set a margin that worked somehow ??? */
 
 
 .port-container {
@@ -228,6 +232,8 @@ footer {
     padding: 10px;
 }
 
+/*captions were difficult, I honestly don't know how I got here*/
+
 .desc1 {
     padding: 10px 15px;
     background: #4aaaa5;
@@ -241,7 +247,9 @@ footer {
     z-index: 1;
 }
 
-/* Contact Form*/
+/* Contact Form: webkits wouldn't work at first for some reason*/
+
+
 
 ::-webkit-input-placeholder { /* Chrome */
   color: rgba(184, 184, 184, 0.72);
@@ -285,7 +293,6 @@ font-family: "Georgia", 'Times, Times New Roman, serif';
 color: #777777;
 
 }
-
 
 
 input[type=text] {
