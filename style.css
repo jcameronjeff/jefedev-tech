@@ -1,0 +1,439 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* COLORS:
+Grey: #999
+Light Blue: #98FDFF
+Teal: 
+Clip path for later use: clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);;
+ */
+
+body { 
+	margin: 0;
+	padding: 30px;
+	font-family: arial;
+	background-image: 
+	linear-gradient(to right,
+	    rgba(255, 255, 255, 0.8), 
+	    rgba(152, 253, 255, 0.8)), 
+	    url(https://netdna.webdesignerdepot.com/uploads/2016/04/featured_code.jpg); 
+	background-size: cover;
+}
+
+header {
+	width: 843px;
+	background-color:#00D6D8;
+	color: white;
+    height: auto;
+  	margin: 0 auto; 
+    border-radius: 15px;
+    padding: 10px 20px 0px 20px;
+	border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+header h1 {
+	width: 800px;
+	display: inline;
+	border-style: dashed;
+	padding: 10px;
+    height: auto;
+  	margin: 0 auto; 
+    margin-top: 10px;
+    
+}
+
+nav ul {
+	margin: 0;
+	padding-left: 400px;
+	display: inline;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	background: black;
+	padding: 20px 15px 30px 15px;
+	margin: 0;
+	border-radius: 3px;
+	clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);	
+}
+
+nav ul li a {
+	text-decoration: none;
+	background-color: #fff;
+	color: #777;
+}
+
+
+.btn:link,
+.btn:visited {
+	 text-transform: uppercase;
+	 text-decoration: none;	
+	 padding: 15px 40px;
+	 display: inline-block;
+}
+
+.btn:hover {
+	transform: translateY(-3px);
+}
+
+.btn:active {
+	transform: translatey(-1px);
+}
+.btn-white {
+	background-color: #fff;
+	color: #777;
+}
+
+.row {
+	clear: both;
+}
+
+
+.col {
+	background: #333;
+	color: white;
+	border-radius: 5px;
+	padding: 10px .5%;
+	margin: .5%;
+	float: left;
+	width: 31%;
+}
+
+
+.homeTitle {
+	background: #00D6D8;
+	margin: 5px auto 40px auto;
+	padding: 20px;
+	border-radius: 15px;
+	color: white;
+	width: 847px;
+}
+
+/*About Me Section*/
+
+.container {
+    width: 875px;
+    height: auto;
+  	margin: 0 auto; 
+}
+
+.aboutme {
+    float: left;
+    width: 500px;
+    background-color: #ffffff;
+    margin-bottom: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+	border-radius: 10px;
+}
+.aboutme h1{
+	font-size: 40px;
+    margin: 20px;
+    padding: 20px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #dddddd;
+    color: #00D6D8;
+	
+}
+.aboutme img {
+    float:left;
+    margin: 10px 20px 0px 20px;
+    
+}
+
+.aboutme p {
+    margin: 20px;
+    margin-top: 30px;
+    line-height: 140%;
+    color: #777777;
+    
+}
+
+ /*social box*/
+
+.connect {
+    float: left;
+    width: 270px;
+    margin-left: 97px;
+    background-color: #ffffff;
+	padding-bottom: 49px;
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+    border-color: #dddddd;
+	border-radius: 10px;
+	clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);   
+}
+
+.connect h2 {
+    padding: 15px;
+    margin: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 40px;
+    border-bottom-width: 2px;
+    border-bottom-color: #dddddd;
+    color: #000000;
+}
+.connect img {
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+
+/*Styling for contact form*/
+
+::-webkit-input-placeholder { /* Chrome */
+  color: rgba(184, 184, 184, 0.72);
+}
+:-ms-input-placeholder { /* IE 10+ */
+ color: rgba(184, 184, 184, 0.72);
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(184, 184, 184, 0.72);
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: rgba(184, 184, 184, 0.72);
+}
+
+
+
+.contact {
+    float: right;
+    width: 450px;
+	height: 400px;
+    background-color: #ffffff;
+    margin-bottom: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    padding-bottom: 40px;
+}
+.contact h1{
+    margin: 20px 5%;
+    padding: 20px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #dddddd;
+    color: #4aaaa5;
+    text-align: left;
+}
+.form-wrap {
+	width: 270px;
+	padding: 5px;
+	background-color: white;
+	float:left;
+	margin-left: 88px;
+	margin-bottom: 30px;
+	border-radius: 15px;
+	margin-top: 10px;
+}
+
+.form1 {
+	position: relative;
+	margin: auto auto;
+	font-family: "Georgia", 'Times, Times New Roman, serif';
+	color: #777777;
+	text-align: center;
+	line-height: 25px;
+	margin-bottom: 20px
+}
+
+
+input {
+	width: 200px;
+}
+
+textarea {
+	margin: 0 auto;
+	font-family: "Georgia", 'Times, Times New Roman, serif';
+	color: rgba(184, 184, 184, 0.72);
+	text-align: left;
+	height: 120px;
+	width: 200px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgba(184, 184, 184, 0.72);
+	
+}
+
+textarea:focus, input:focus {
+    color: #000000;
+}
+
+
+
+/* for blog posts. looking for how to
+automatically stagger each post left and right */
+
+.post-container {
+	
+}
+.postPreview {
+	background:#ffffff;
+	float: right;
+	margin-left:30%;
+	margin-bottom: 25px;
+	padding-bottom: 30px;
+	border-radius: 5px;
+	clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 75% 85%, 75% 100%, 60% 85%, 0 85%);
+	
+}
+
+.postPreview h1 {
+	text-align:center;	
+	font-size: 20px ;
+	margin-top: 1%;
+	margin-bottom: 0px
+}
+.postPreview p {
+	margin: 10px;
+	padding: 5px;
+}
+
+.postPreview img {
+	max-width: 30%;
+	float: left;
+	margin: 10px;
+	height: auto;
+	border: 1px dashed #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+			
+.postPreviewL {
+	background:#ffffff;
+	float: Left;
+	padding-bottom: 20px;
+	margin-right:30%;
+	margin-bottom: 25px;
+	border-radius: 5px;
+	clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 38% 85%, 25% 100%, 25% 85%, 0 85%);
+}
+
+.postPreviewL h1 {
+	font-size: 20px;
+	text-align:center;	
+	margin-top: 1%;
+}
+.postPreviewL p {
+	margin: 20px;
+	padding: 5px;
+}
+
+.postPreviewL img {
+	max-width: 30%;
+	float: left;
+	margin: 10px;
+	height: auto;
+	border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;}
+		
+footer {
+	clear: both;
+	background: #00D6D8;
+	margin: 40px auto 0px auto;
+	padding: 30px 10px;
+	border-radius: 15px;
+	color: white;
+	text-align: center;
+	width: 847px;
+	height: 27px;
+}
+
+
+
+
+#posts {
+	margin: 40px auto 80px auto;
+	width: 847px;
+	
+}
+
+
+
+/*portfolio*/
+
+
+.portfolio {
+
+    float: left;
+    width: 650px;
+    background-color: #ffffff;
+    margin-bottom: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    text-align: left;
+    padding-bottom: 40px;
+}
+.portfolio h1{
+    margin: 20px 5%;
+    padding: 20px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #dddddd;
+    color: #4aaaa5;
+}
+
+/*Gallery COULD NOT figure out how to make the images float left so that odd numbers wouldn't be centered finally wrapped the images in the gallery class and set a margin that worked somehow ??? */
+
+
+.port-container {
+    width: 875px;
+    height: auto;
+    margin: 0 auto;
+    
+}
+.gallery {
+    position: relative;
+    margin: 50px 35px;
+}
+
+.image1 {
+    position: relative;
+    width: 270px;
+    height: 100%;
+    float: left;
+    padding: 10px;
+}
+
+/*captions were difficult, I honestly don't know how I got here*/
+
+.desc1 {
+    padding: 10px 15px;
+    background: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Georgia', 'Times New Roman', Times, serif; 
+    position: absolute;
+    width: 240px;
+    bottom: 20%;
+    z-index: 1;
+}
+
