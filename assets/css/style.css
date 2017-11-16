@@ -1,5 +1,5 @@
 /*
-* Teal color (used for headings and backgrounds): `#4aaaa5`
+* Teal color (used for headings and backgrounds): `#00D6D8`
    * Regular font color (used for paragraphs and all text besides the headings): `#777777`
    * Main header background color: `#ffffff`
    * Main header border color: `#cccccc`
@@ -49,7 +49,7 @@ p {
 header h1{
     float:left;
     margin-left: 0px;
-    background-color:#4aaaa5;
+    background-color:#00D6D8;
     padding: 33px;
     margin-right: 450px;
     color: #ffffff;
@@ -127,11 +127,12 @@ ul li:nth-child(3){
     border-bottom-style: solid;
     border-bottom-width: 3px;
     border-bottom-color: #dddddd;
-    color: #4aaaa5;
+    color: #00D6D8;
 }
 .aboutme img {
     float:left;
-    margin: 10px 20px 0px 20px;
+    margin: 15px 20px 5px 20px;
+    padding-bottom:10px
     
 }
 
@@ -165,13 +166,34 @@ ul li:nth-child(3){
     border-bottom-width: 40px;
     border-bottom-width: 2px;
     border-bottom-color: #dddddd;
-    color: #4aaaa5;
+    color: #00D6D8;
 }
 .connect img {
     
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+/*Hover Grow on Social Buttons*/
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+/*Footer Content*/
 
 footer {
     clear:both;
@@ -183,7 +205,7 @@ footer {
     line-height: 90px;
     border-top-style: solid;
     border-top-width: 6px;
-    border-top-color: #4aaaa5;  
+    border-top-color: #00D6D8;  
 }
 
 
@@ -207,7 +229,7 @@ footer {
     border-bottom-style: solid;
     border-bottom-width: 3px;
     border-bottom-color: #dddddd;
-    color: #4aaaa5;
+    color: #00D6D8;
 }
 
 /*Gallery COULD NOT figure out how to make the images float left so that odd numbers wouldn't be centered finally wrapped the images in the gallery class and set a margin that worked somehow ??? */
@@ -236,7 +258,7 @@ footer {
 
 .desc1 {
     padding: 10px 15px;
-    background: #4aaaa5;
+    background: #00D6D8;
     color: white;
     text-align: center;
     font-size: 1em;
@@ -280,7 +302,7 @@ footer {
     border-bottom-style: solid;
     border-bottom-width: 3px;
     border-bottom-color: #dddddd;
-    color: #4aaaa5;
+    color: #00D6D8;
     text-align: left;
 }
 
